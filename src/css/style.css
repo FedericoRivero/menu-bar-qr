@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  color: #ececee;
+  background-color: #1f2029;
+  /* overflow: hidden; */
+  background-image: url("../assets/back.svg");
+  background-position: center;
+  background-repeat: repeat;
+  background-size: 20%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #6395ca #514d4d;
+  border: 0;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+*::-webkit-scrollbar-track {
+  background: #677c869a;
+  border-radius: 0.5rem;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #2fa7dd;
+  border-radius: 0.5rem;
+  border: 3px none #ffffff;
+}
+
+.carta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  width: 100vw;
+  overflow: hidden;
+}
+
+.carta input,
+.carta button {
+  font: inherit;
+}
+
+.carta header {
+  display: flex;
+  position: sticky;
+  justify-content: flex-start;
+  align-items: center;
+  top: 0;
+  height: 4rem;
+  width: 100%;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+.carta header h1 {
+  font-size: inherit;
+  margin: 0;
+}
+
+.carta header img {
+  height: 7rem;
+  /* margin-right: 0.5rem; */
+}
+
+.carta__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.carta__container__load {
+  margin-top: 1em;
+  color: white;
+}
+
+.carta__container__document {
+  margin: 1em 0;
+}
+
+.carta__container__document .react-pdf__Document {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.carta__container__document .react-pdf__Page {
+  max-width: calc(100% + 2em);
+  /* box-shadow: 0 0 8px rgba(0, 0, 0, 0.5); */
+  box-shadow: 0 0 8px rgba(88, 164, 226, 0.5);
+  margin: 1em;
+}
+
+.carta__container__document .react-pdf__Page svg {
+  max-width: 100%;
+  height: auto !important;
+}
+
+.carta__container__document .react-pdf__message {
+  padding: 20px;
+  color: white;
+}
+
+.loading {
+  display: block;
+  position: relative;
+  justify-content: space-evenly;
+  align-items: center;
+  max-width: calc(100% + 2em);
+  padding: 0.2em;
+  box-shadow: 0 0 8px rgba(88, 164, 226, 0.5);
+  margin: 1em;
+  text-align: center;
+}
+
+.error {
+  display: block;
+  position: relative;
+  justify-content: space-evenly;
+  align-items: center;
+  max-width: calc(100% + 2em);
+  padding: 0.2em;
+  box-shadow: 0 0 8px rgba(226, 88, 88, 0.5);
+  margin: 1em;
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2rem;
+  width: 100%;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+  color: #a3a1af;
+}
+@media screen and (max-width: 991px) {
+}
