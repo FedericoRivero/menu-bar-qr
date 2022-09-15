@@ -1,3 +1,13 @@
+# Menú online Blue 42 Resto bar
+
+#### Escanea el código QR
+
+![Menú online Blue 42 Resto bar](./src/assets/QR/Blue_42_resto_bar_San_Juan_QR.svg "Menú online Blue 42 Resto bar")
+
+#### Deploy
+https://menu-blue-42-resto-bar.pages.dev/
+------
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
