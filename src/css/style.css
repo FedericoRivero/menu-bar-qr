@@ -142,6 +142,12 @@ body {
   text-align: center;
 }
 
+.carta__terminos {
+  text-align: center;
+  color: rgba(88, 164, 226, 0.877);
+  font-size: 1em;
+}
+
 footer {
   display: flex;
   justify-content: center;

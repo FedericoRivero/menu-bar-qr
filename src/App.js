@@ -68,6 +68,11 @@ function App() {
           </Document>
         </div>
       </div>
+      {/* términos y condiciones */}
+      <p className="carta__terminos">
+        * Los precios, especificaciones, promociones y disponibilidad están
+        sujetos a cambios.
+      </p>
       <footer>
         <small>&copy; Blue 42 resto bar · 2022 · Federico Rivero</small>
       </footer>
