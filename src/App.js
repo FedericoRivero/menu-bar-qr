@@ -5,10 +5,10 @@ import { Player } from "@lottiefiles/react-lottie-player";
 import React, { useState } from "react";
 // import { Document, Page } from "react-pdf";
 import { Document, Page } from "react-pdf/dist/esm/entry.webpack";
-import "react-pdf/dist/esm/Page/AnnotationLayer.css";
+// import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 
 function App() {
-  const file = "./pdf/carta_blue_septiembre_2022-comprimido.pdf";
+  const file = "./pdf/carta_blue_octubre_2022-comprimido.pdf";
   const [numPages, setNumPages] = useState(null);
   // const [pageNumber, setPageNumber] = useState(null);
 
@@ -19,7 +19,7 @@ function App() {
   return (
     <div className="carta">
       <header>
-        <img src={logo} alt="Blue-42-resto-bar-logo" />
+        <img src={logo} width="110" height="110" alt="Blue-42-resto-bar-logo" />
         <h1>Blue 42 resto bar</h1>
       </header>
       <div className="carta__container">
